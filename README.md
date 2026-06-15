@@ -1,11 +1,12 @@
-🛒 E-Commerce Analytics Lakehouse Project
-📌 Project Overview
+E-Commerce Analytics Lakehouse Project
+
 
 This project demonstrates the design and implementation of an end-to-end Data Lakehouse solution using Databricks, PySpark, SQL, and Delta Lake.
 
 The objective was to ingest raw e-commerce data, transform it through a Medallion Architecture (Bronze → Silver → Gold) pipeline, build business-ready analytical datasets, generate insights using Databricks Genie AI, and create interactive dashboards for business reporting.
 
-🚀 Tech Stack
+Tech Stack:
+
 Databricks
 PySpark
 SQL
@@ -16,7 +17,10 @@ Medallion Architecture
 Databricks Genie AI
 Databricks Dashboards
 ETL / ELT Pipelines
-🏗️ Architecture
+
+
+Architecture
+
 Raw CSV Files
        │
        ▼
@@ -36,7 +40,9 @@ Gold Layer
        │
        ▼
 Genie AI + Dashboards
-📂 Data Sources
+
+
+Data Sources
 
 The project ingests raw CSV datasets including:
 
@@ -66,6 +72,8 @@ brz_brands
 brz_category
 brz_calendar
 brz_order_items
+
+
 🥈 Silver Layer
 Objective
 
@@ -84,6 +92,8 @@ slv_products
 slv_brands
 slv_category
 slv_calendar
+
+
 🥇 Gold Layer
 Objective
 
@@ -99,6 +109,8 @@ gld_dim_customers
 gld_dim_products
 gld_dim_date
 gld_fact_order_items
+
+
 📊 Data Modeling
 
 The project follows a dimensional model consisting of:
@@ -118,6 +130,8 @@ Schema Enforcement
 Delta Tables
 Optimized Data Storage
 Reliable ETL Processing
+
+
 🔄 ETL / ELT Pipeline
 Extract
 Imported raw CSV files into the Data Lake.
@@ -128,6 +142,7 @@ Processed and cleaned data in Silver.
 Created analytical datasets in Gold.
 
 This project follows a modern ELT approach commonly used in Lakehouse architectures.
+
 
 🤖 Databricks Genie AI
 
@@ -141,6 +156,7 @@ Monthly Sales Performance
 Channel-wise Revenue Analysis
 
 Genie AI enabled rapid business insight generation without manually writing SQL queries.
+
 
 📈 Dashboard & Business Insights
 
